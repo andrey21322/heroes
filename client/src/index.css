@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: black;
+  color:white;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.hero-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.hero-wrapper div{
+  cursor: pointer;
+  margin-right: 3px;
+}
+.hero {
+  width: 180px;
+  height: 200px;
+  margin: 200px 0 5px 0;
+  padding: 5px;
+  border: 1px solid white;
+  text-align: center;
+}
+.close {
+  cursor: pointer;
+  text-align: center;
+  width: 100px;
+  margin: 0 auto;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+img {
+  width: 150px;
+  height: 180px;
+}
+.modal { 
+  width: 600px;
+  min-height: 400px;
+  background-color: grey;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+input, textarea {
+  width: 280px;
+  height: 26px;
+  padding: 4px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+}
+.add-btn, .cancle-btn {
+  width: 70px;
+  height: 30px;
+  background-color: rgb(42, 165, 42); 
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.cancle-btn {
+  background-color: rgb(189, 30, 30);
+  margin-left: 10px;
+}
+.add{
+  width: 70px;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  margin: 0 auto;
+  cursor:pointer;
+  text-align: center;
+}
+.hero-modal {
+  padding: 10px;
+  width: 800px;
+  min-height: 200px;
+  border-radius:10px;
+  background-color: grey;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+.hero-width {
+  margin-top: 10px;
+}
+.hero-modal-img {
+  display: flex;
+  width: 650px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.hero-modal-img img{
+  margin-right: 10px;
+}
+.flex {
+  display: flex;
+}
+.fa-pencil {
+  margin-right: 10px;
+}
+.pagination {
+  width: 398px;
+  margin: 15px 0 0 400px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.pagination-btn {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  margin-left: 5px;
+  cursor: pointer;
+}
+span {
+  color: black
+}
+.active {
+  background-color: white;
+  color: black;
+}
+.error{ 
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: grey;
+  color: black;
+  text-align: center;
+  align-items:center;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 100px;
+}
